@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  xmlns:gs="dezsys07">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:getQueryRequest>
+         <gs:name>test</gs:name>
+      </gs:getQueryRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
