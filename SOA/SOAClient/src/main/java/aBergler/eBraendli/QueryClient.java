@@ -27,7 +27,7 @@ public class QueryClient extends WebServiceGatewaySupport{
 
         GetQueryResponse response = (GetQueryResponse) getWebServiceTemplate()
                 .marshalSendAndReceive(
-                        "http://localhost:8080/ws/artciles",
+                        "http://localhost:8080/ws/articles",
                         request,
                         new SoapActionCallback("http://localhost:8080/ws/getQueryRequest"));
 

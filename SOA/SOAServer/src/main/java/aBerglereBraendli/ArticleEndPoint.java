@@ -29,6 +29,8 @@ public class ArticleEndPoint {
     @ResponsePayload
     public GetQueryResponse getQuery(@RequestPayload GetQueryRequest request) {
         GetQueryResponse response = new GetQueryResponse();
+        //response.
+
         response.setArticle(articleRepository.findArticle(request.getName()));
 
         return response;

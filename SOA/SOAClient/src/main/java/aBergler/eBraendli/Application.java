@@ -19,7 +19,7 @@ public class Application {
     @Bean
     CommandLineRunner lookup(QueryClient queryClient) {
         return args -> {
-            String articleSearch = "Test";
+            String articleSearch = "def";
 
             if (args.length > 0) {
                 articleSearch = args[0];
