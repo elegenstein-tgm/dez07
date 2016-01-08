@@ -13,7 +13,7 @@ import org.springframework.xml.xsd.SimpleXsdSchema;
 import org.springframework.xml.xsd.XsdSchema;
 
 /**
- * Created by fusions on 14.12.15.
+ * Created by abergler on 14.12.15.
  */
 @EnableWs
 @Configuration
